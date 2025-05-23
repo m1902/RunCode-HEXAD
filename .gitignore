@@ -1,0 +1,22 @@
+# Jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+
+# Ignore everything in data/
+data/*
+
+# Except these subfolders
+!data/preprocessed/
+!data/raw/
+
+# Ignore all files in those folders
+data/preprocessed/*
+data/raw/*
+
+# But keep the placeholder files
+!data/preprocessed/.gitkeep
+!data/raw/.gitkeep
